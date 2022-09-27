@@ -13,9 +13,13 @@ const path = require("path");
 const logEvents = async (message) => {
   const dateTime = `${format(new Date(), "yyyyMMdd\tHH:mm:ss")}`;
   // using the dateTime and creating a tab delimited log file
-  const logItem = `${dateTime}\t${uuid()}\t${message}`;
+  const logItem = `${dateTime}\t${uuid()}\t${message}\n`;
   console.log(logItem);
   try {
+    if (!fs.existsSync(path.join(__dirname, "logs"))) {
+      await fsPromises.mkdir(path.join(__dirname, "logs"));
+    }
+
     await fsPromises.appendFile(
       path.join(__dirname, "logs", "eventLog.txt"),
       logItem

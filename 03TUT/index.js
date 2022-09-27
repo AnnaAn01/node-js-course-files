@@ -1,12 +1,16 @@
-// usses common js, e use require
-const { format } = require("date-fns");
-const { v4: uuid } = require("uuid");
+const logEvents = require("../03TUT/logEvents");
 
-{
-  /* we're calling the format function from date-fns, it accepts a new Date(),
-then we add the format, year, month, day. Then a tab, then hours, minutes and seconds. 
-*/
-}
-console.log(format(new Date(), "yyyyMMdd\tHH:mm:ss"));
+const EventEmitter = require("events");
 
-console.log(uuid());
+class MyEmitter extends EventEmitter {}
+
+// initialize object
+const myEmitter = new MyEmitter();
+
+// add listener for the log event
+myEmitter.on("log", (msg) => logEvents(msg));
+
+setTimeout(() => {
+  // emit event
+  myEmitter.emit("log", "Log event emited!");
+}, 2000);
