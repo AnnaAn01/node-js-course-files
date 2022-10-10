@@ -1,2 +1,4 @@
 20220930	20:41:32	3b1f34c0-7c54-41d4-a091-c3c3a2524183	TypeError: fsPromises.readFil is not a function
 20221009	12:50:20	143836aa-dfa9-4010-ba08-7685b6108fc5	Error: Not allowed by CORS
+20221010	15:32:41	b4714701-4fa8-4106-b950-9bd0a363cd26	Error: ENOENT: no such file or directory, stat 'C:\Users\Me\Desktop\dave-gray-node-js\TUTFiles\08TUT\views\index.html'
+20221010	15:32:41	14e727c3-b1e4-46bf-bbe4-6b24ef4f8afe	Error: ENOENT: no such file or directory, stat 'C:\Users\Me\Desktop\dave-gray-node-js\TUTFiles\08TUT\views\404.html'
