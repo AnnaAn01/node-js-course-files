@@ -121,3 +121,6 @@
 20221010	16:58:18	c94cd666-addb-4eb7-a6ee-b228b98b6917	PUT	undefined	/employees
 20221010	16:59:46	36b450e3-13cd-43c5-acb5-c8a7ba3d5f53	DELETE	undefined	/employees
 20221010	17:00:28	dada7740-d6f4-4182-9335-3db78918c72c	GET	undefined	/employees/1
+20221016	11:28:27	e63b9585-8d44-476d-8dfb-3e7c0e9d1c0a	GET	undefined	/
+20221016	11:28:27	71365b90-d5e1-4c4f-a010-dba1fd548122	GET	undefined	/css/style.css
+20221016	11:28:27	07b6dc98-f9ae-4fb2-8a69-3c58956a8ab2	GET	undefined	/favicon.ico
