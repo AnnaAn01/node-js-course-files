@@ -1,0 +1,17 @@
+20220930	20:41:32	3b1f34c0-7c54-41d4-a091-c3c3a2524183	TypeError: fsPromises.readFil is not a function
+20221009	12:50:20	143836aa-dfa9-4010-ba08-7685b6108fc5	Error: Not allowed by CORS
+20221010	15:32:41	b4714701-4fa8-4106-b950-9bd0a363cd26	Error: ENOENT: no such file or directory, stat 'C:\Users\Me\Desktop\dave-gray-node-js\TUTFiles\08TUT\views\index.html'
+20221010	15:32:41	14e727c3-b1e4-46bf-bbe4-6b24ef4f8afe	Error: ENOENT: no such file or directory, stat 'C:\Users\Me\Desktop\dave-gray-node-js\TUTFiles\08TUT\views\404.html'
+20221016	17:47:20	5eb97212-2f8c-4d68-90ab-882c5cc25fb3	TypeError: res.join is not a function
+20221016	17:49:38	66b89dec-f327-422a-86a2-8b68ebe75104	TypeError: Cannot read properties of undefined (reading 'id')
+20221016	17:51:45	1f1c0e09-10ba-46f8-bcf1-94e08510196f	ReferenceError: employee is not defined
+20221016	17:51:52	8aed98eb-f6af-4377-a652-d0d4502419e9	ReferenceError: employee is not defined
+20221016	17:51:56	ba939a9e-9f38-4b32-a5bd-62d5a8c2b742	ReferenceError: employee is not defined
+20221016	17:52:33	9b3ef2cf-4d84-4423-9bb6-c252a31d6e83	ReferenceError: employee is not defined
+20221016	17:52:45	3a13770f-eb94-4013-9d17-469115c20d66	TypeError: Cannot read properties of undefined (reading 'find')
+20221016	17:53:03	f187f4fe-1843-481d-a2d8-96d3317ce84b	TypeError: Cannot read properties of undefined (reading 'find')
+20221016	17:53:56	27ab48c5-0a5a-4d6b-bc50-c344c3d08416	ReferenceError: employee is not defined
+20221016	17:54:02	acbc82fc-f8a0-4a74-944f-3e9ace981bf1	ReferenceError: employee is not defined
+20221016	17:54:03	0c481a96-f65d-45bd-8152-3353e86bbf1e	ReferenceError: employee is not defined
+20221016	17:54:04	779fb114-1570-48ed-ba12-8df5a5167a72	ReferenceError: employee is not defined
+20221016	17:56:13	0cea8a27-1793-4aa8-85c7-9cece3e8bb02	TypeError: Cannot read properties of undefined (reading 'find')
