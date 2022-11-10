@@ -257,3 +257,6 @@
 20221108	17:53:42	ba2bc0c7-e2ac-457a-aa42-ee9e8122cd50	POST	undefined	/auth
 20221108	17:53:58	1b2d91b9-72af-44ff-9315-99653735c225	POST	undefined	/auth
 20221108	17:54:09	f306acc7-2a91-41f3-ae6b-30af089a595d	GET	undefined	/employees
+20221109	10:11:03	ac911899-ed58-40b6-8252-a276ecbffc77	GET	undefined	/
+20221109	10:11:03	3af4e100-fac8-4eb3-a318-6e3d0f6079f5	GET	undefined	/css/style.css
+20221109	10:11:04	2eab7d7f-250e-4a16-adbe-1cc336e979a6	GET	undefined	/favicon.ico
